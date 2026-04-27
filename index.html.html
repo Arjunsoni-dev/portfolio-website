@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arjun Soni | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+    background:#020617;
+}
+
+nav h2{
+    color:#38bdf8;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+/* Hero */
+.hero{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero span{
+    color:#38bdf8;
+}
+
+.hero p{
+    margin-top:10px;
+    color:#94a3b8;
+}
+
+/* Section */
+section{
+    padding:60px 50px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+/* Skills */
+.skills{
+    display:flex;
+    gap:20px;
+}
+
+.skill{
+    background:#1e293b;
+    padding:10px 20px;
+    border-radius:10px;
+}
+
+/* Projects */
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+/* Contact */
+.contact{
+    text-align:center;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+    margin-top:40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+<h2>Arjun</h2>
+<div>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+<div>
+<img src="myphoto.jpg.jpg" alt="Arjun" width="150" style="border-radius:50%;">
+<h1>Hi, I'm <span>Arjun Soni</span></h1>
+<p>Aspiring Web Developer</p>
+</div>
+</div>
+
+<!-- About -->
+<section id="about">
+<h2>About Me</h2>
+<p>I am a BCA student passionate about web development. I build responsive websites using HTML, CSS, and JavaScript and continuously improve my skills.</p>
+</section>
+
+<!-- Skills -->
+<section>
+<h2>Skills</h2>
+<div class="skills">
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+</div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Personal portfolio to showcase my work.</p>
+</div>
+
+<div class="card">
+<h3>Resume Builder</h3>
+<p>Web app to generate resumes dynamically.</p>
+</div>
+
+<div class="card">
+<h3>Snake Game</h3>
+<p>Simple JavaScript game with score tracking.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+<h2>Contact Me</h2>
+<p>Email: arjunsoniwork@gmail.com</p><br>
+<p>Phone number: +91 9116655737</p>
+</section>
+
+<!-- Footer -->
+<footer>
+<p>© 2026 Arjun Soni</p>
+</footer>
+
+</body>
+</html>
+ 
